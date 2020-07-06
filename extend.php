@@ -11,11 +11,11 @@ return [
     		'vlive',
     		[
         	'host'    => 'vlive.tv',
-       	 	'extract' => "!vlive\.tv/(?:video/[^#]+#video=)(?'id'[A-Za-z0-9]+)!",
+       	 	'extract' => "!vlive\.tv/(?:video/[^#]+#video=)(?'Clipid'[-0-9]+)!",
         	'flash'   => [
             		'width'  => 560,
             		'height' => 315,
-			'src'    => 'https://www.vlive.tv/embed/{@id}'
+			'src'    => 'https://www.vlive.tv/embed/{@Clipid}'
         ]
     ]
 );
