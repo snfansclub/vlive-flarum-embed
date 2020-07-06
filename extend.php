@@ -18,5 +18,6 @@ return [
                         'src'  => '//https://vlive.tv/embed/{@ClipId}'
                     		]
                 ]
-        })
+			);       
+	   })
 ];
