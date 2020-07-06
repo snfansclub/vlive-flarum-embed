@@ -1,14 +1,5 @@
 <?php
 
-/*
- * This file is part of snfansclub/vlive-flarum-embed.
- *
- * Copyright (c) 2020 snfans.club.
- *
- * For the full copyright and license information, please view the LICENSE.md
- * file that was distributed with this source code.
- */
-
 namespace snfansclub/vlive-flarum-embed;
 
 use Flarum\Extend;
@@ -22,7 +13,7 @@ return [
                     'host'	  => 'vlive.tv',
                     'extract' => "!vlive\.tv/video/('ClipId')!",
                     'iframe' => [
-						'width' => 320,
+			'width' => 320,
                         'height' => 200,
                         'src'  => '//https://vlive.tv/embed/{@ClipId}',
                     ]
