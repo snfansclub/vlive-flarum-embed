@@ -11,7 +11,7 @@ return [
                 'vlive',
                 [
                     'host'	  => 'vlive.tv',
-                    'extract' => "!vlive\.tv/video/('ClipId')!",
+                    'extract' => "!vlive\.tv/video/('ClipId'[-0-9]+)!",
                     'iframe' => [
 			'width' => 320,
                         'height' => 200,
