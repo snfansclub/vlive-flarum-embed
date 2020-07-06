@@ -15,9 +15,8 @@ return [
                     'iframe' => [
 			'width' => 320,
                         'height' => 200,
-                        'src'  => '//https://vlive.tv/embed/{@ClipId}',
+                        'src'  => '//https://vlive.tv/embed/{@ClipId}'
                     		]
                 ]
-	 ]
         })
 ];
