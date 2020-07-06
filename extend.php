@@ -7,17 +7,17 @@ use s9e\TextFormatter\Configurator;
 return [
     (new Extend\Formatter)
         ->configure(function (Configurator $config) {
-            $config->MediaEmbed->add(
-                'vlive',
-                [
-                    'host'	  => 'vlive.tv',
-                    'extract' => "!vlive\.tv/video/('ClipId'[-0-9]+)!",
-                    'iframe' => [
-			'width' => 320,
-                        'height' => 200,
-                        'src'  => '//https://vlive.tv/embed/{@ClipId}'
-                    		]
-                ]
-			);       
+             $config->MediaEmbed->add(
+				'vlive',
+				[
+					'host'	  => ['vlive.tv'],
+					'extract' => [
+						"!vlive\.tv/video/(?'ClipId'[-0-9]+)!!"
+					],
+					'iframe' => [
+						'src'  => '//www.vlive.tv/embed/{@ClipId}'
+					]
+				]
+			);
 	   })
 ];
