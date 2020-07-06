@@ -1,5 +1,5 @@
 {
-  "name": "snfansclub/vlive-flarum-embed",
+  "name": "snfansclub/vliveflarum",
   "description": "Add vlive.tv in mediaembed",
   "keywords": [
     "flarum"
@@ -18,7 +18,7 @@
   ],
   "autoload": {
     "psr-4": {
-      "snfansclub\\vlive\\": "src/"
+      "snfansclub\\vliveflarum\\": "src/"
     }
   },
   "extra": {
