@@ -28,7 +28,7 @@ return [
                     ]
                 ]
              $config->BBCodes->addCustom(
-               '[oneindex src={URL?}][/oneindex]',
+               '[sfans src={URL?}][/sfans]',
                '<video preload="" controls="" width="100%"><source src="{URL}" type="video/mp4"></video>'
             );
         })
