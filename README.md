@@ -4,4 +4,4 @@
 composer require snfansclub/vliveflarum
 
 #### Usage
-[vlive id={12345}][/vlive] while 12345 is ClipId of video
+[vlive id={12345}][/vlive] while {12345} is ClipId of video
