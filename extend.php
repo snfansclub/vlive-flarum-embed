@@ -1,6 +1,6 @@
 <?php
 
-namespace snfansclub/vlive-flarum-embed;
+namespace snfansclub/vliveflarum;
 
 use Flarum\Extend;
 use s9e\TextFormatter\Configurator;
