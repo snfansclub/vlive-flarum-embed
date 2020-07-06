@@ -12,7 +12,7 @@ return [
 				[
 					'host'	  => ['vlive.tv'],
 					'extract' => [
-						"!vlive\.tv/video/(?'ClipId'[-0-9]+)!!"
+						"!vlive\.tv/video/(?'ClipId'[-0-9]+)!"
 					],
 					'iframe' => [
 						'src'  => '//www.vlive.tv/embed/{@ClipId}'
