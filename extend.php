@@ -17,9 +17,5 @@ return [
 					]
 				]
 			);
-		$config->BBCodes->addCustom(
-               '[snfans src={URL?}][/snfans]',
-               '<video preload="" controls="" width="100%"><source src="{URL}" type="video/mp4"></video>'
-            );
 	   })
 ];
