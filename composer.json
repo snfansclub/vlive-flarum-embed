@@ -7,13 +7,13 @@
   "type": "flarum-extension",
   "license": "MIT",
   "require": {
-    "flarum/core": "^0.1.0-beta.13"
+    "flarum/core": "^0.1.0-beta.08"
   },
   "authors": [
     {
       "name": "snfansclub",
       "email": "admin@snfans.club",
-      "role": "Developer"
+      "homepage": "https://snfans.club"
     }
   ],
   "autoload": {
