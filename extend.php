@@ -9,7 +9,7 @@ return [
         ->configure(function (Configurator $config) {
              $config->BBCodes->addCustom(
                '[vlive id={NUMBER1?}][/vlive]',
-               '<iframe style="height: 306px; width: 100%" src="//www.vlive.tv/embed/{NUMBER1}" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>'
+               '<iframe style="height: 416px; width: 100%" src="//www.vlive.tv/embed/{NUMBER1}" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>'
             );
         })
 ];
